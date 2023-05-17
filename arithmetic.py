@@ -43,3 +43,7 @@ def mod(num1, num2):
 def add_multi(num1, num2, num3):
     """Adds num1 and num2, then multiplies that sum with num3"""
     return (num1 + num2) * num3
+
+def add_cubes(num1, num2):
+    """Add the cubes of num1 and num2."""
+    return pow(num1, 3) + pow(num2, 3) 
